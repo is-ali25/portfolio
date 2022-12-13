@@ -1,0 +1,157 @@
+body {
+    background-color: goldenrod;
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgba(10, 7, 48, 0);
+    width: 90vw;
+
+    position: relative;
+    left: 50%;
+    top: -3vh;
+    transform: translateX(-50%);
+
+    z-index: 1;
+  }
+  
+  h1 {
+    color: black;
+    font-family: articulat-heavy-cf, sans-serif;
+    font-weight: 700;
+    font-size: 7rem;
+    height: 10vh;
+
+    /* position: relative; */
+
+  }
+
+  h2 {
+    color: black;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    height: 10vh;
+  }
+  
+  .since {
+    margin-top: -2.7rem;
+    margin-bottom: -1rem;
+
+    position: relative;
+    left: 1.2vw;
+  }
+  
+  h3 {
+    text-align: left;
+    text-indent: 7vw;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .container {
+    background-color: #5F9DA0;
+    width: 80vw;
+    position: relative;
+    top: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2rem;
+  }
+
+  .reflection {
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .learned {
+    width: 45%;
+    background-color: brown;
+    color: #5F9DA0;
+    margin-bottom: 2rem;
+  }
+
+  .learned h2 {
+    color: #5F9DA0;
+    position: relative;
+    top: 2vh;
+    left: 2rem;
+    font-size: 1.7rem;
+  }
+
+
+
+ul, .intro {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro {
+    padding: 2rem;
+
+    width: 72%;
+    text-indent: 4rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    width: 62%;
+
+    padding: 2rem;
+
+    width: 72%;
+    text-indent: 4rem;
+    font-family: articulat-cf, sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    background-color: goldenrod;
+    border: solid 2px #5f9da0;
+
+
+    width: 15vw;
+    height: 8vh;
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 10px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: articulat-cf, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+    color: goldenrod;
+}
